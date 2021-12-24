@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<!--
+  Name: Myles Krisik
+  Date: April 06, 2021
+  Section: CSE 154 Section AM, TA: Fadel Shtiui
+
+  This is the second page of my website which was linked to from about.html. It contains
+  a list of some of my favorite albums, their artwork, some facts about them and a
+  description of what I feel about them and why I like them.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" >
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="albumstyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  <title>My Favorite Albums</title>
+</head>
+
+<body>
+  <nav>
+    <ol class="linkparent">
+      <li class="pagelinks"><a href="index.html">Home</a></li>
+      <li class="pagelinks"><a href="albums.html">My Favorite Albums</a></li>
+      <li class="pagelinks"><a href="games.html">Games I recommend</a></li>
+      <li class="pagelinks"><a href="albumrec.html">Get an Album Reccomendation</a></li>
+    </ol>
+  </nav>
+  <header>
+    <h1>My favorite albums</h1>
+    <p id="small">(In no particular order)</p>
+  </header>
+  <main>
+    <h2>Create Album Entry</h2>
+    <article id="albumentry">
+      <label for="albumtitle"> Album info ([Title] - [Artist]): </label>
+      <input id="albumtitle" type="text" >
+      <label for="albumfacts">
+        3 or 4 album facts seperated by double forward slashes ("//")
+      </label>
+      <input id="albumfacts" type="text" >
+      <label for="albumart"> Album Artwork </label>
+      <input id="albumart" type="url" >
+      <label for="picturealtcitation">
+        Simple picture description and its citation seperated by a double
+        forward slashes ("//")
+      </label>
+      <input id="picturealtcitation" >
+      <label for="albumdescription"> Describe why you like this album </label>
+      <textarea id="albumdescription" rows="4"> </textarea>
+      <button id="submit">Add it bb!</button>
+    </article>
+    <hr >
+    <article>
+      <section>
+        <h2 class="albumname">To Pimp a Butterfly - Kendrick Lamar</h2>
+      </section>
+      <section>
+        <img class="album" src="tpab.jpeg" alt="The cover of the album To Pimp a Butterfly" >
+        <ul class="facts">
+          <li>Kendrick Lamar's Third Studio Album</li>
+          <li>Released March 15, 2015</li>
+          <li>Won a Grammmy for Best Rap Album</li>
+          <li>Genres: Hip Hop, Jazz Rap, Alternative Hip Hop</li>
+        </ul>
+      </section>
+      <p class="citationcaption">
+        <a href="https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly">To Pimp a Butterfly</a>
+        album artwork by the artist Kendrick Lamar. Copyright belonging to Top
+        Dawg Entertainment or its artist. Found on
+        <a href="https://www.theguardian.com/music/2015/mar/11/kendrick-lamar-to-pimp-a-butterfly-album-cover">
+          this site</a>
+        </p>
+      <section class="description">
+        This album is so beautifully complex, yet also very simple in many
+        ways. The production by Sounwave, Thundercat, Pharell and many more,
+        is second to none. Lamar talks aboutso many relevant topics,
+        insitutionalization, self hate, the African-American communities views
+        oncomplexion, all tied together beautifully with an ever growing poem
+        at the tailend of most songs.
+      </section>
+    </article>
+    <article>
+      <section>
+        <h2 class="albumname">Give Up - The Postal Service</h2>
+      </section>
+      <section>
+        <img class="album" src="giveup.jpg" alt="The cover of the album Give Up" >
+        <ul class="facts">
+          <li>The Postal Service's Only Album</li>
+          <li>Released February 18th, 2003</li>
+          <li>Comprised of Ben Gibbard and Jimmy Taborello</li>
+          <li>Genres: Indie Pop, Bedroom Pop</li>
+        </ul>
+      </section>
+      <p class="citationcaption">
+        <a href="https://en.wikipedia.org/wiki/Give_Up">Give Up</a>
+        album artwork by the artist The Postal Service. Copyright belonging to
+        Sub Pop Records or its artist Al Columbia. Found on
+        <a href="https://www.subpop.com/releases/the_postal_service/give_up">
+          this site</a>
+        </p>
+      <section class="description">
+        One of my favorite sonically sounding albums, the beautiful synth
+        beats by Taborello with their flickering notes and warm fun sound
+        along withGibbard's delicate vocals and heartbreaking lyrics about
+        loss are unmatched. The songtopics are all phenominal, The District
+        Sleeps Alone Tonight about a breakup and tryingto deal with the change
+        and the circumstances of the breakup, Such Great Heights talkingu
+        about how relationships cause you to not care about everyone else and
+        Brand New Colony speaking about the feeling of wanting to do
+        everything for someone you love.
+      </section>
+    </article>
+    <article>
+      <section>
+        <h2 class="albumname">
+          In The Aeroplane Over the Sea - Neutral Milk Hotel
+        </h2>
+      </section>
+      <section>
+        <img class="album" src="aeroplane.jpg" alt="The cover of the album In The Aeroplane Over the Sea" >
+        <ul class="facts">
+          <li>Neutral Milk Hotel's Second Album</li>
+          <li>Released February 10th, 1998</li>
+          <li>Renowned Indie Album</li>
+          <li>Genres: Indie Rock, Folk Rock, Lo-fi</li>
+        </ul>
+      </section>
+      <p class="citationcaption">
+        <a href="https://en.wikipedia.org/wiki/In_the_Aeroplane_Over_the_Sea">
+          In the Aeroplane Over The Sea</a>
+        album artwork by the artist Neutral Milk Hotel. Copyright belonging to
+        Merge Records or its artist Chris Bilheimer. Found on
+        <a
+          href="https://www.spin.com/2018/02/neutral-milk-hotel-in-the-aeroplane-over-the-sea-review-20th-anniversary/">
+          this site</a>
+        </p>
+      <section class="description">
+        Jeff Mangum, the lead-singer and guitar player for Neutral Milk Hotel,
+        writes bizzarre and cryptic lyrics about Anne Frank, Stories of WWII,
+        Adultery and depression on this album with an equally eclectic sound
+        to match. Blown out fuzzy guitars, Mangum's odd singing voice all add
+        up to one of the most unique albums.
+      </section>
+    </article>
+  </main>
+  <footer>Plus many, more lol</footer>
+</body>
+
+</html>
